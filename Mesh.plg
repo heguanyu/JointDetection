@@ -1,0 +1,139 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Mesh - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x40c /fo"Release/Mesh.res" /d "NDEBUG" /d "_AFXDLL" "C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Mesh.rc"" 
+Creating temporary file "C:\DOCUME~1\PIERRE~1\LOCALS~1\Temp\RSP43F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Release/" /Fp"Release/Mesh.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\Array3d.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\ChildFrm.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\Color.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\ColorRamp.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\DialogWmf.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\Edge3d.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\Face3d.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\MainFrm.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\Material.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Mesh.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\Mesh3d.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\MeshDoc.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\MeshView.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\Object3d.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\ParserVrml.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\PsRender.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\SceneGraph3d.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\Texture.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\Transform.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\Utils3d.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\Vector3d.cpp"
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\Lib3D\Vertex3d.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PIERRE~1\LOCALS~1\Temp\RSP43F.tmp" 
+Creating temporary file "C:\DOCUME~1\PIERRE~1\LOCALS~1\Temp\RSP440.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Release/" /Fp"Release/Mesh.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Users\Pierre\Src\Codeguru\GlExport\Project\Src\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\PIERRE~1\LOCALS~1\Temp\RSP440.tmp" 
+Creating temporary file "C:\DOCUME~1\PIERRE~1\LOCALS~1\Temp\RSP441.tmp" with contents
+[
+opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Mesh.pdb" /machine:I386 /out:"Release/Mesh.exe" 
+.\Release\Array3d.obj
+.\Release\ChildFrm.obj
+.\Release\Color.obj
+.\Release\ColorRamp.obj
+.\Release\DialogWmf.obj
+.\Release\Edge3d.obj
+.\Release\Face3d.obj
+.\Release\MainFrm.obj
+.\Release\Material.obj
+.\Release\Mesh.obj
+.\Release\Mesh3d.obj
+.\Release\MeshDoc.obj
+.\Release\MeshView.obj
+.\Release\Object3d.obj
+.\Release\ParserVrml.obj
+.\Release\PsRender.obj
+.\Release\SceneGraph3d.obj
+.\Release\StdAfx.obj
+.\Release\Texture.obj
+.\Release\Transform.obj
+.\Release\Utils3d.obj
+.\Release\Vector3d.obj
+.\Release\Vertex3d.obj
+.\Release\Mesh.res
+]
+Creating command line "link.exe @C:\DOCUME~1\PIERRE~1\LOCALS~1\Temp\RSP441.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Array3d.cpp
+ChildFrm.cpp
+Color.cpp
+ColorRamp.cpp
+DialogWmf.cpp
+Edge3d.cpp
+Face3d.cpp
+MainFrm.cpp
+Material.cpp
+Mesh.cpp
+Mesh3d.cpp
+MeshDoc.cpp
+MeshView.cpp
+Object3d.cpp
+ParserVrml.cpp
+PsRender.cpp
+SceneGraph3d.cpp
+Texture.cpp
+Transform.cpp
+Utils3d.cpp
+Generating Code...
+Compiling...
+Vector3d.cpp
+Vertex3d.cpp
+Generating Code...
+Linking...
+Creating temporary file "C:\DOCUME~1\PIERRE~1\LOCALS~1\Temp\RSP443.tmp" with contents
+[
+/nologo /o"Release/Mesh.bsc" 
+.\Release\StdAfx.sbr
+.\Release\Array3d.sbr
+.\Release\ChildFrm.sbr
+.\Release\Color.sbr
+.\Release\ColorRamp.sbr
+.\Release\DialogWmf.sbr
+.\Release\Edge3d.sbr
+.\Release\Face3d.sbr
+.\Release\MainFrm.sbr
+.\Release\Material.sbr
+.\Release\Mesh.sbr
+.\Release\Mesh3d.sbr
+.\Release\MeshDoc.sbr
+.\Release\MeshView.sbr
+.\Release\Object3d.sbr
+.\Release\ParserVrml.sbr
+.\Release\PsRender.sbr
+.\Release\SceneGraph3d.sbr
+.\Release\Texture.sbr
+.\Release\Transform.sbr
+.\Release\Utils3d.sbr
+.\Release\Vector3d.sbr
+.\Release\Vertex3d.sbr]
+Creating command line "bscmake.exe @C:\DOCUME~1\PIERRE~1\LOCALS~1\Temp\RSP443.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Mesh.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
